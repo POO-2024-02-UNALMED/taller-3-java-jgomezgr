@@ -73,7 +73,7 @@ public class TV {
 	public void canalDown() {
 		if(this.estado == true && this.canal > 1){
 		this.canal--;
-        };
+        }
 	}
     public void volumenUp() {
         if(this.estado == true && this.volumen < 7){
